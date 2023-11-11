@@ -2,19 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JSG Blog</title>
-    <link>https://example.org/</link>
+    <link>https://impulsive-sudor.github.io/MyBlog/</link>
     <description>Recent content on JSG Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Nov 2023 09:01:37 -0500</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Nov 2023 08:09:39 -0500</lastBuildDate>
+    <atom:link href="https://impulsive-sudor.github.io/MyBlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying My Blog</title>
+      <link>https://impulsive-sudor.github.io/MyBlog/posts/deploying-my-blog/</link>
+      <pubDate>Thu, 09 Nov 2023 08:09:39 -0500</pubDate>
+      <guid>https://impulsive-sudor.github.io/MyBlog/posts/deploying-my-blog/</guid>
+      <description>How to Deploy? Current Tool The blog tool I&amp;rsquo;m using is called Hugo. I don&amp;rsquo;t have much experience with it but I&amp;rsquo;m fan a fan of it&amp;rsquo;s ability to easily translate markdown to HTML. Using Markdown is more universal and can be carried over to other platforms easily.
+Git To start, I want to use some kind of Git server to store and deploy my code. I&amp;rsquo;m not sure if it matters that this platform is private or public.</description>
+    </item>
+    <item>
+      <title>Idea Open Source Workflow Tool</title>
+      <link>https://impulsive-sudor.github.io/MyBlog/posts/idea-open-source-workflow-tool/</link>
+      <pubDate>Thu, 09 Nov 2023 07:52:36 -0500</pubDate>
+      <guid>https://impulsive-sudor.github.io/MyBlog/posts/idea-open-source-workflow-tool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Purpose of This Blog</title>
+      <link>https://impulsive-sudor.github.io/MyBlog/posts/purpose-of-this-blog/</link>
+      <pubDate>Thu, 09 Nov 2023 07:50:33 -0500</pubDate>
+      <guid>https://impulsive-sudor.github.io/MyBlog/posts/purpose-of-this-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Who Am I</title>
+      <link>https://impulsive-sudor.github.io/MyBlog/posts/who-am-i/</link>
+      <pubDate>Thu, 09 Nov 2023 07:49:20 -0500</pubDate>
+      <guid>https://impulsive-sudor.github.io/MyBlog/posts/who-am-i/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Build My Cloud</title>
+      <link>https://impulsive-sudor.github.io/MyBlog/posts/build-my-cloud/</link>
+      <pubDate>Wed, 08 Nov 2023 20:04:33 -0500</pubDate>
+      <guid>https://impulsive-sudor.github.io/MyBlog/posts/build-my-cloud/</guid>
+      <description>Summary I&amp;rsquo;m dreaming up a day where I have nearly full control of my data. I like the peace of mind of having all my data protected by a level that works for me. If I want to expose more data, I have the choice too. Building my cloud should be a learning experience and something I can carry over to work.
+Requirements The solution has to work in a production environment Maintenance must be minimal, I don&amp;rsquo;t need a job away from a job Cost efficent is must!</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>https://example.org/posts/my-first-post/</link>
+      <link>https://impulsive-sudor.github.io/MyBlog/posts/my-first-post/</link>
       <pubDate>Wed, 08 Nov 2023 09:01:37 -0500</pubDate>
-      <guid>https://example.org/posts/my-first-post/</guid>
-      <description>Introduction Hello and welcome to my first blog! This is also first post I&amp;rsquo;m making using Hugo. I hope to be posting much more in the future but for now, this post is more of a tech demo, ha!
-Here is a AI generated image of a wizard waving. </description>
+      <guid>https://impulsive-sudor.github.io/MyBlog/posts/my-first-post/</guid>
+      <description>Introduction Hello and welcome to my first blog! This is also first post I&amp;rsquo;m making using Hugo. I hope to be posting much more in the future but for now, this post is more of a tech demo, ha!</description>
     </item>
   </channel>
 </rss>

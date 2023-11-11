@@ -2,6 +2,7 @@
 title = 'Build My Cloud'
 date = 2023-11-08T20:04:33-05:00
 draft = true
+featured_image = "/images/Build my cloud.png"
 +++
 
 ## Summary

@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/deploying-my-blog/</loc>
+    <lastmod>2023-11-09T08:09:39-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/</loc>
+    <lastmod>2023-11-09T08:09:39-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/</loc>
+    <lastmod>2023-11-09T08:09:39-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/idea-open-source-workflow-tool/</loc>
+    <lastmod>2023-11-09T07:52:36-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/purpose-of-this-blog/</loc>
+    <lastmod>2023-11-09T07:50:33-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/who-am-i/</loc>
+    <lastmod>2023-11-09T07:49:20-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/build-my-cloud/</loc>
+    <lastmod>2023-11-08T20:04:33-05:00</lastmod>
+  </url><url>
+    <loc>https://impulsive-sudor.github.io/MyBlog/posts/my-first-post/</loc>
     <lastmod>2023-11-08T09:01:37-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/my-first-post/</loc>
-    <lastmod>2023-11-08T09:01:37-05:00</lastmod>
+    <loc>https://impulsive-sudor.github.io/MyBlog/categories/</loc>
   </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2023-11-08T09:01:37-05:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://impulsive-sudor.github.io/MyBlog/tags/</loc>
   </url>
 </urlset>
