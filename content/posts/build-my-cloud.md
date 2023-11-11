@@ -1,8 +1,9 @@
 +++
-title = 'Build My Cloud'
-date = 2023-11-08T20:04:33-05:00
+title = "Build My Cloud"
+date = 2023-11-09T01:04:33.000Z
 draft = true
 featured_image = "/images/Build my cloud.png"
+slug = "build-cloud"
 +++
 
 ## Summary

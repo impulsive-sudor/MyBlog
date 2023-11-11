@@ -19,7 +19,7 @@
         {
           "title": "draft",
           "name": "draft",
-          "type": "datetime"
+          "type": "draft"
         },
         {
           "title": "featured_image",
