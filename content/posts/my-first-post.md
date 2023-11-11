@@ -1,8 +1,10 @@
 +++
-title = 'My First Post'
-date = 2023-11-08T09:01:37-05:00
+title = "My First Post"
+date = "2023-11-11T16:46:46.181Z"
 draft = false
 featured_image = "/images/AIBlueWizard-01.webp"
+slug = "post"
+type = "default"
 +++
 
 ## Introduction
