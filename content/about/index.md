@@ -8,3 +8,5 @@ menu:
 ---
 
 ## MEEEEE
+
+**Sponsor me:** {{< github >}}
