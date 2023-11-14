@@ -1,7 +1,8 @@
 +++
-title = 'Deploying My Blog'
-date = 2023-11-09T08:09:39-05:00
+title = "Deploying My Blog"
+date = "2023-11-12T17:26:22.854Z"
 draft = true
+featured_image = "/images/DALL·E 2023-11-12 12.23.20 - A fantasy-themed, vivid image featuring anthropomorphic characters representing Hugo and GitHub. Hugo is depicted as a wise, elderly wizard with a lon.png"
 +++
 
 # How to Deploy?
@@ -22,3 +23,6 @@ I ended up deploying this blog using Github pages due to how easy and cost effec
 1. First I created my Hugo page locally on my mac by following the steps on Hugos [quickstart](https://gohugo.io/getting-started/quick-start/) site
 2. Then I followed the guide on how to [deploy using Github Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
 3. After following those two guides, I was able to deploy my first Blog.
+
+## Pictures
+I needed a way to add pcitures to my posts. Without pictues, I feel the blog is less interesting. So to make my life easy, I decided on paying for the openai service that allows me to use DALL-E 3 image generation. 
