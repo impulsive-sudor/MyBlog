@@ -14,6 +14,7 @@ I'm dreaming up a day where I have nearly full control of my data. I like the pe
 2. Maintenance must be minimal, I don't need a job away from a job
 3. Cost efficent is must!
 4. Easily repeatable
+5. Secure enough to protect all families data
 
 ## Software to replace
 - **Password Manager:** Currently using 1Password and Apple Keychain
@@ -26,6 +27,8 @@ I'm dreaming up a day where I have nearly full control of my data. I like the pe
 - 24/7 Bedrock [Minecraft server](https://www.minecraft.net/en-us/download/server/bedrock)
 - Recipe Application ([Mealie](https://mealie.io))
 - [Home Assistant](https://www.home-assistant.io)
+- [Autehntik](https://goauthentik.io)
+- [Gitea Server](https://about.gitea.com)
 
 ## Nice to have
 - A gaming system that I can remotely access from anywhere. 

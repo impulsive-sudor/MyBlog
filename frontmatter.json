@@ -42,5 +42,21 @@
       "title": "posts",
       "path": "[[workspace]]/content/posts"
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Image with Caption": {
+      "description": "",
+      "body": [
+        "\"frontMatter.content.snippets\": {",
+        "  \"Image snippet\": {",
+        "    \"description\": \"Image with caption\",",
+        "    \"body\": \"{{< caption \\\"[[&mediaUrl]]\\\" \\\"[[caption]]\\\" >}}\",",
+        "    \"isMediaSnippet\": true",
+        "  }",
+        "}",
+        ""
+      ],
+      "isMediaSnippet": true
+    }
+  }
 }
