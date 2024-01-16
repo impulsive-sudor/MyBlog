@@ -15,8 +15,6 @@ keywords:
 slug: domain-aws-terraform-part-1-import
 ---
 
-## Summary
-
 Currently, I have two domains setup in my AWS environment, one for personal and one for my family. I want the ability to manage these domains programmatically using [Terraform](https://www.terraform.io). This might be overkill for most people but I like to tinker with things. I'm hoping at the end of this process I can easily change my [Amazon Route53](https://aws.amazon.com/route53/) configuration while self documenting all the changes through GIT and CI/CD.
 
 ## Terraform Import
