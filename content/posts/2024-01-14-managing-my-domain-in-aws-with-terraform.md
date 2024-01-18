@@ -110,10 +110,16 @@ If you like to mirror what I did, you can [clone my repo](ttps://github.com/impu
     }
     ```
 
-4. Run the following command to output your current infrastructure into terraform code.
+4. Run the following command to initialize the directory.
+
+    ```zsh
+    terraform init
+    ```
+
+5. Run the following command to output your current infrastructure into terraform code.
 
     ```zsh
     terraform plan -generate-config-out=generated.tf
     ```
 
-5. You should now see a *generated.tf* file in your current directory. If you do, congrats! You have successfully imported your Terraform infrastructure using Terraform import.
+6. You should now see a *generated.tf* file in your current directory. If you do, congrats! You have successfully imported your Terraform infrastructure using Terraform import.

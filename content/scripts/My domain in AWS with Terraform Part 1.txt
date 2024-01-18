@@ -1,0 +1,43 @@
+[Open with a view of the AWS console]
+
+"Hello everyone, today I'm going to show you how to manage your AWS domains programmatically using Terraform. I have two domains set up in my AWS environment, one for personal use and one for my family. I want to be able to easily change my Amazon Route53 configuration and document all the changes through GIT and CI/CD."
+
+[Show the Terraform website]
+
+"Terraform is a powerful tool that allows us to define and provide data center infrastructure using a declarative configuration language. One of its features is Terraform Import, which allows us to bring already existing resources under Terraform management."
+
+[Show the AWS console again]
+
+"My AWS infrastructure was already set up using the console, so I need a way to turn that into code. That's where Terraform Import comes in."
+
+[Show the import.tf file]
+
+"I've created an import.tf file where I've written all my import code. This file contains several import blocks, each targeting a specific AWS resource."
+
+[Show the Terraform code]
+
+"Here's what the import code looks like. Each block specifies the resource to import and its ID."
+
+[Show the terminal]
+
+"After writing all the import code, I run the command terraform plan -generate-config-out=generated.tf. This outputs my current configurations into a generated.tf file."
+
+[Show the generated.tf file]
+
+"Note that I encountered some errors related to 'multivalue_answer_routing_policy'. These errors don't stop the import but do require a change to the boolean values in the code."
+
+[Show the terminal]
+
+"If you want to mirror what I did, you can clone my repository. Do this by running git clone https://github.com/impulsive-sudor/TF-Import-AWS-Route53-Zone-and-Records.git in your terminal. Then, change the tfvar values in the terraform.tfvars file to ones that are relevant to your environment."
+
+[Show the terraform.tfvars file]
+
+"Here's what the terraform.tfvars file looks like. You'll need to adjust these values to match your own AWS environment."
+
+[Show the terminal]
+
+"Finally, run the terraform plan -generate-config-out=generated.tf command again. You should now see a generated.tf file in your current directory. If you do, congrats! You have successfully imported your Terraform infrastructure using Terraform import."
+
+[End with a view of the generated.tf file]
+
+"That's all for today. Thanks for watching, and happy coding!"
