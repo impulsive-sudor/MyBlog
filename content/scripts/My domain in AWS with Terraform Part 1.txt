@@ -34,6 +34,8 @@
 
 "Here's what the terraform.tfvars file looks like. You'll need to adjust these values to match your own AWS environment."
 
+"Next run Terraform init to initialize the directory"
+
 [Show the terminal]
 
 "Finally, run the terraform plan -generate-config-out=generated.tf command again. You should now see a generated.tf file in your current directory. If you do, congrats! You have successfully imported your Terraform infrastructure using Terraform import."
