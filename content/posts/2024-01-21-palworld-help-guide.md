@@ -14,6 +14,8 @@ keywords:
 
 As of January 21st, 2024, there is a bug when connecting to PalWorld servers with a password. Basically, there's no prompt to enter when you connect to the server by IP/Hostname.
 
+{{< youtube id="q8dk_v3dEpY" >}}
+
 >Check if the server is in your recent server list, just connect from there instead of the manual connect option. This will prompt you for a password.
 
 **To workaround this bug, do the following:**
