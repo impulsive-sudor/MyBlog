@@ -1,9 +1,13 @@
 ---
 title: Palworld Help Guide
 date: 2024-01-21T12:04:51.802Z
-draft: true
+draft: false
 featured_image: ""
 type: ""
+keywords:
+    - Gaming
+    - PalWorld
+    - Guide
 ---
 
 ## Palworld Password Bug
