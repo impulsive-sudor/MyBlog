@@ -2,7 +2,7 @@
 title: Palworld Help Guide
 date: 2024-01-21T12:04:51.802Z
 draft: false
-featured_image: ""
+featured_image: /images/assets/palworld eggs.png
 type: ""
 keywords:
     - Gaming
@@ -16,7 +16,7 @@ As of January 21st, 2024, there is a bug when connecting to PalWorld servers wit
 
 >Check if the server is in your recent server list, just connect from there instead of the manual connect option. This will prompt you for a password.
 
-To workaround this bug, do the following:
+**To workaround this bug, do the following:**
 
 1. Go to the Community Servers tab with in the Multiplayer dashboard
 2. Find any server that is password protected and connect to it
