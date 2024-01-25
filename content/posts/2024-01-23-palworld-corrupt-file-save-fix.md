@@ -12,7 +12,7 @@ Find player uid
     this is found in the exported JSON. If they are in a guild you can find it through there name
 Search for the key value pal for the players missing. Move this missing data from the old save to the new save.
 
-One of the ongoing issues in Palworld is charcter corruption. From a user propspective, when they 
+One of the ongoing issues in Palworld is charcter corruption. From a user propspective, when they try to login, they get stuck on the loading screen. I've noticed this typically happening after a server crash.
 
 This guide is not for the someone looking for an easy fix. They easist way to fix this issue is either by creating a new server or restoring fully from a backup. We (my friends) couldn't do this since a handful of them already progressed hours ahead of the people that got corrupted.
 
@@ -75,7 +75,18 @@ WinSCP is a easy to use file transfer tool to move files over SSH. This is only 
 7. Click and drag the current level.sav file onto the *convert-single-sav-to-json.bat* file. This will open a cmd prompt to convert the files from .sav to json.
     >This part will take some time to process and will generate a large json file. In my testing, the output json file is 7GB large.
 8. Perform the same step on the old save file
-9. 
+9. Now is the fun part, we need to find the player UID. I did this by searching for the players name, which only works if the player is in a guild.
+10. Once you have the UID, you need to find the block of JSON missing in the current save file by comparing it to the old save file. 
+11. You will now copy that date from the old save file and move it to the current save file. Save these changes
+12. Click and drag the corrected json file onto the *convert-single-json-to-sav.bat* script. This will convert the file back into a level.sav file.
+13. Safely shutdown the current running server to prevent any corruption
+14. Go onto the current server and backup the level.sav file again.
+    >All of the progress made between you doing these changes and now will be lost in the game. The level.sav file is the server database.
+15. Using WinSCP, move the newly created level.sav file from your computer into the *Pal/Saved/SaveGames/ID/0/* directory
+16. Relaunch the server by running the pal server script.
+17. If everything was done correctly, the corrupt users should now be able to login.
+
+Congrats! I hope this guide worked for you as well as it worked for us. Happy Gaming!
 
 ### References
 
