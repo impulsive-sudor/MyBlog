@@ -30,6 +30,11 @@
           "title": "type",
           "name": "type",
           "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
         }
       ]
     }
